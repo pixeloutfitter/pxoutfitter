@@ -1878,3 +1878,97 @@ body {
   font-size: 1.2rem;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the responsive section */
+.responsive-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the heading */
+.responsive-section h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the image row and items */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-item {
+  flex: 0 0 calc(25% - 20px); /* Each item takes 25% width with a small margin */
+  margin: 10px;
+  text-align: center;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the centered paragraph */
+.responsive-section p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Style the responsive button */
+.responsive-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0077B5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsiveness for the button */
+@media screen and (max-width: 600px) {
+  .responsive-button {
+      width: 100%; /* Button takes full width on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ... (previous CSS rules) ... */
+
